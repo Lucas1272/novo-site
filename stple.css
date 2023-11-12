@@ -1,0 +1,143 @@
+.produto {
+    width: 400px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0.836);
+    background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    border-radius: 20px;
+    position: relative;
+ }
+
+img {
+    width: 400px;
+    display: block;
+}
+h1 {
+    text-align: center;
+    background: #03001e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.cortado {
+    color: black;
+    text-decoration: line-through;
+    padding-left: 10px;
+    margin-bottom: 1px;
+}
+.preco {
+    font-size: 26px;
+    font-weight: 600;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    color: rgb(0, 204, 255);
+}
+h2 {
+    padding-left: 10px;
+    font-family: 'Gloock', serif;
+    color: rgb(0, 0, 0);
+}
+.tamanhos {
+    border: 1px solid black;
+    display: inline-block;
+    margin: 2px;
+    border-radius: 50px;
+    padding: 1px 2px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.tamanhos:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.4s;
+    border-color: rgb(0, 0, 0);
+}
+button {
+    display: block;
+    background-color: #fdeff9;
+    color: black;
+    font-size: 15px;
+    margin: auto;
+    padding: 8px 10px;
+    margin-top: 15px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+button:hover {
+    transition: 1s;
+    background-color: #03001e;
+    color: aqua;
+}
+body {
+    background: #7F00FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.selo-desconto {
+    background-color: #03001e;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    color: #ff0000;
+    display: inline-block;
+    position: absolute;
+    padding: 3px 3px;
+    top: 35px;
+    left: 7px;
+    font-size: 13px;
+}
+.uva {
+   background-color: #474040;
+   border: 1px solid rgb(95, 86, 86);
+   border-radius: 50px;
+   color: rgb(155, 155, 155);
+   display: inline-block;
+   position: absolute;
+   padding: -2px 1px;
+   bottom: 65px;
+   font-size: 10px;
+   padding-left: 3px;
+   padding-right: 2px;
+   left: 31px;
+
+}
+.uva2 {
+    background-color: #474040;
+    border: 1px solid rgb(95, 86, 86);
+    border-radius: 50px;
+    color: rgb(155, 155, 155);
+    display: inline-block;
+    position: absolute;
+    padding: -2px 1px;
+    bottom: 65px;
+    font-size: 10px;
+    padding-left: 3px;
+    padding-right: 2px;
+    left: 100px;
+ 
+}
+.uva3 {
+    background-color: #474040;
+    border: 1px solid rgb(95, 86, 86);
+    border-radius: 50px;
+    color: rgb(155, 155, 155);
+    display: inline-block;
+    position: absolute;
+    padding: -2px 1px;
+    bottom: 65px;
+    font-size: 10px;
+    padding-left: 3px;
+    padding-right: 2px;
+    left: 169px;
+}
+.texto {
+    font-size: 20px;
+}
